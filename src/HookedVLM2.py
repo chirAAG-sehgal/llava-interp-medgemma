@@ -16,7 +16,7 @@ model_cache_dir = config['cache_dir']
 if model_cache_dir is None:
     model_cache_dir = os.path.join(file_path, '..', 'models')
 
-print(model_cache_dir)
+
 @contextmanager
 def session_hook(model: torch.nn.Module, hook: Callable):
     handle = model.register_forward_hook(hook, with_kwargs=True)

@@ -6,3 +6,4 @@ data/annotations/
 *.zip
 venv
 models
+image_folder/
