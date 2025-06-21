@@ -46,6 +46,11 @@ This repository provides code and resources for our paper, [Towards Interpreting
 * `scripts/logit_lens/create_logit_lens.py` Run the model and create interative logit lens HTMLs for a set of images
 * `scripts/logit_lens/generate_overview.py` Generate an `index.html` to view a set of logit_lens HTMLs files.
 
+### 2. Logit Lens for MedGemma (chirag)
+* cd llava-interp 
+* `python3 scripts/logit_lens/create_logit_lens2.py --image_folder image_folder --save_folder image_folder` Run the model and create interative logit lens HTMLs for a set of images
+
+
 ### 2. Token Ablation Experiments
 
 **Preparation**
